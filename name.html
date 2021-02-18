@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <script src="../../jquery/jquery-3.5.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body style="text-align: center;">
+    <div class="death" style="display: none;">
+        <div style="display: flex; flex-direction: column; align-items: center; padding-top: 200px">
+            <h1 class="game_over" style=>GAME<br>OVER</h1>
+            <div>るうくんは死んでしまった</div>
+            <div><span class="message">名前は「えーこ」とかが良かったな</span>byるうくん</div>
+            <p class="retry">最初に戻る</p>
+        </div>
+    </div>
+    <div class="name-select-box">
+        <div class="black" style="display: none;">
+            <div class="confirmation-rapper">
+                <div class="confirmation-box">
+                    <p class="your-name-is">あなたの名前は</p>
+                    <h1 class="your-name"></h1>
+                    <p>でよろしいですか？</p>
+                    <p class="cofirmation-name"></p>
+                    <p class="btn yes-btn">はい</p>
+                    <p class="btn no-btn">いいえ</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form class="name_form">
+                <label for="name" class="name_label">名前を入力してね</label>
+                <input name="name" type="text" class="name_input" placeholder="名前" >
+                <p  name="name" id="" class="btn name_submit">決定</p>
+            </form>
+            <p class="caution" style="color: red"></p>
+        </div>
+    </div>
+    <div class="story">
+        <p>よく来てくれました<span class="your-name"></span></p>
+        <p>早速ですがあなたには</p>
+        <p>魔王のところへ行ってもらいます</p>
+        <p>実は...</p>
+        <p>るうくんが魔王に連れ去られてしまったのです</p>
+        <p>そこであなたの出番です</p>
+        <p>魔王のところへ行き</p>
+        <p>るうくんを助けてきてください</p>
+        <p>てことで...</p>
+        <p>よろぴくっ<span class="your-name"></span></p>
+        <a href="story.html" class="skip">スキップ</a>
+    </div>
+
+    <div class="preparation">
+        <p>こうして、<span class="your-name"></span>は</p>
+        <p>るうくんを救出するべく</p>
+        <p>魔王のところへ</p>
+        <p>行くのであった</p>        
+    </div>
+    
+    
+
+
+
+    <script src="../static/index.js"></script>
+</body>
+</html>
