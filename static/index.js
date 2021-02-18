@@ -156,7 +156,7 @@ $(function () {
     $(".retry").on("click", function () {
         $("body").fadeOut(1000);
         setTimeout(function () {
-            location.href = "./top.html"
+            location.href = "./"
         })
     })
 
